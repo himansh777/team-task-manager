@@ -6,7 +6,7 @@ import Header from '../components/Header';
 
 const Dashboard = () => {
   const [stats, setStats] = useState({});
-  const { user, logout } = useContext(AuthContext);
+  const { logout } = useContext(AuthContext);
   const navigate = useNavigate();
 
   useEffect(() => {
